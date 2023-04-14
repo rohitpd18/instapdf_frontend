@@ -9,7 +9,7 @@ const Card = (props) => {
   return (
     <div onClick={()=>navigate("/"+props.id)} className="card">
       <div className="card-img">
-        <img src={axios.getUri() + "/" + props.img} alt="..." />
+        <img src={axios.getUri() + props.img} alt="..." />
       </div>
       <div className="card-body">
         <div className="card-heading">

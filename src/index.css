@@ -7,3 +7,12 @@
 .container {
   padding-inline: 350px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}

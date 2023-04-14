@@ -5,6 +5,7 @@ import Home from './Page/Home'
 import SinglePdf from './Page/SinglePdf'
 import Create from './Page/Create'
 import Error404 from './Page/Error404'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path='/admin/create' element={<Create/>}/>
         <Route path='*' element={<Error404/>}/>
       </Routes>
+      <Footer/>
     </Router>
     </>
   )

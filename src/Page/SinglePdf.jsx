@@ -60,7 +60,7 @@ const SingleBlog = () => {
               <hr />
             </div>
             <div className="pdf-img">
-              <img src={axios.getUri() + "/" + pdf.img} alt="" />
+              <img src={axios.getUri()+ pdf.img} alt="" />
             </div>
           </div>
 
@@ -70,7 +70,7 @@ const SingleBlog = () => {
 
           <div className="download-section">
             <h3>{pdf.name} Download Link</h3>
-            <a target="_blank" href={axios.getUri() + "/" + pdf.pdfUrl} >
+            <a target="_blank" href={axios.getUri() + pdf.pdfUrl} >
               <button>Preview here</button>
             </a>
             
