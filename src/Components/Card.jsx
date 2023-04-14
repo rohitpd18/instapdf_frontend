@@ -7,7 +7,8 @@ const Card = (props) => {
   let navigate = useNavigate();
   
   return (
-    <div onClick={()=>navigate("/"+props.id)} className="card">
+    // <div onClick={()=>navigate("/"+props.id)} className="card">
+    <div onClick={()=>navigate("/admin/create")} className="card">
       <div className="card-img">
         <img src={axios.getUri() + "/" + props.img} alt="..." />
       </div>
